@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenden</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <!--Responsive Navbar-->
+<nav class="bg-green-100 p-2 flex items-center justify-between shadow-xl sticky top-0">
+    <h1 class="text-2xl">Greenden</h1>
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 md:hidden">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+      </svg>
+      
+
+       <ul class="flex gap-5 text-gray-600 hidden md:flex" >
+            <li>
+                <a class="hover:underline hover:text-black" href="#">Home</a>
+            </li>
+            <li>
+                <a class="hover:underline hover:text-black" href="#">Product</a>
+            </li>
+            <li>
+                <a class="hover:underline hover:text-black" href="#">Contact</a>
+            </li>
+        </ul>
+</nav>
+<!--contact bar-->
+<div class="p-4 mx-auto max-w-xl bg-white">
+    <h1 class="text-2xl text-slate-900 font-semibold text-center">Contact us</h1>
+    <form class="mt-8 space-y-5">
+    <div>
+    <label class='text-sm text-slate-800 font-medium mb-2 block'>Name</label>
+      <input type='text' placeholder='Enter Name'
+        class="w-full py-2.5 px-4 text-slate-800 bg-gray-100 border focus:border-slate-900 focus:bg-transparent text-sm outline-none transition-all" />
+      </div>
+      <div>
+          <label class='text-sm text-slate-800 font-medium mb-2 block'>Email</label>
+      <input type='email' placeholder='Enter Email'
+        class="w-full py-2.5 px-4 text-slate-800 bg-gray-100 border focus:border-slate-900 focus:bg-transparent text-sm outline-none transition-all" />
+      </div>
+      <div>
+          <label class='text-sm text-slate-800 font-medium mb-2 block'>Subject</label>
+      <input type='text' placeholder='Enter Subject'
+        class="w-full py-2.5 px-4 text-slate-800 bg-gray-100 border focus:border-slate-900 focus:bg-transparent text-sm outline-none transition-all" />
+      </div>
+      <div>
+          <label class='text-sm text-slate-800 font-medium mb-2 block'>Message</label>
+      <textarea placeholder='Enter Message' rows="4"
+        class="w-full px-4 text-slate-800 bg-gray-100 border focus:border-slate-900 focus:bg-transparent text-sm pt-3 outline-none transition-all"></textarea>
+      </div>
+      <button type='button'
+        class="!mt-8 text-white bg-slate-900 hover:bg-slate-800 tracking-wide text-[15px] px-4 py-2 w-full outline-none">Send</button>
+    </form>
+  </div>
+  <!--Footer-->
+  <section class="bg-green-100 p-5 flex flex-col gap-3">
+    <h1 class="text-4xl font-bold">Greenden</h1>
+    <p>The standard chunk of lorem ipsum used since the 1500s is reproduced below for those interests</p>
+    <p>@ 2025 Greenden.com</p>
+</section>
+
+    
+</body>
+</html>
+
